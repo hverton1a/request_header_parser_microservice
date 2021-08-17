@@ -1,8 +1,9 @@
 {
 	"name": "request_header",
-	"version": "0.0.1",
-	"description": "API project for freeCodeCamp",
+	"version": "1.0.0",
+	"description": "A small microservice api that return a JSON with some request´s Header data. The user send a url request [appurl]/api/whoami then receive the public ip, language and browser info.",
 	"main": "server.js",
+	"author":"Heverton Vieira Horvat Barbosa",
 	"scripts": {
 		"start": "node server.js"
 	},
@@ -14,7 +15,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://hyperdev.com/#!/project/welcome-project"
+		"url": "https://github.com/hverton1a/request_header_parser_microservice.git"
 	},
 	"keywords": [
 		"node",
